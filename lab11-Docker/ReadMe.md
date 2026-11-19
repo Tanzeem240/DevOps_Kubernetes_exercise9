@@ -1,12 +1,12 @@
+# COMP3104 – Lab 11 – Containerization
+Tanzeem Shaikh – 101585484
 
-# Run following command on terminal
+Simple Python Flask app containerized with Docker.
 
+## Build
 docker build --tag=hellodocker .
 
-docker image ls
-
+## Run
 docker run -p 4000:80 hellodocker
 
-docker container stop CONTAINER_ID
-
-docker container ls
+Open http://localhost:4000
